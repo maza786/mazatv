@@ -146,16 +146,16 @@ body {
     margin-bottom: 1em;
 }
 
-.toc ul{
+.article ul{
     margin: 0px;
 }
-.toc li{
+.article li{
     list-style: none;
 }
-.toc li a{
+.article li a{
     text-decoration: none;
 }
-.toc li a:hover{
+.article li a:hover{
     color: #FF5733;
 }
 
@@ -227,6 +227,9 @@ body {
 }
 
 @media (max-width: 768px) {
+ .app-details{
+    width: 100%;
+  }
     .mobile-menu {
         display: flex;
         align-items: center;
@@ -261,6 +264,7 @@ body {
 }
 
 @media (min-width: 769px) {
+ 
     .mobile-menu {
         display: none;
     }
